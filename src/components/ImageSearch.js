@@ -10,13 +10,13 @@ const ImageSearch = ({searchText}) => {
 
 
   return (
-    <div className=" max-w-sm rounded overflow-hidden my-10 mx-auto flex items-center place-content-center">
+    <div className=" max-w-sm rounded overflow-hidden pt-3 mb-6 mx-auto flex items-center place-content-center">
       
       <form onSubmit={onSubmit} className="w-full max-w-sm">
-        <div className="flex items-center mx-1 border-b-2 border-blue-500 py-1">
+        <div className="flex items-center mx-1 rounded-lg border-2 border-blue-500 py-1">
           <input
             onChange={(e) => setText(e.target.value)}
-            className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+            className="appearance-none bg-transparent border-none w-full text-gray-300 mr-3 py-1 px-2 leading-tight focus:outline-none"
             type="text"
             placeholder="Search Image Term..."
           />
