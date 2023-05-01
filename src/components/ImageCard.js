@@ -16,7 +16,7 @@ const handleDownload = () => {
 
     return ( 
        <div className='max-w-sm m-5 rounded-lg ml-12 hover:shadow-gray-100 cursor-pointer
-        overflow-hidden lg:hover:scale-110  duration-500 shadow-lg shadow-blackgit'>
+        overflow-hidden lg:hover:scale-110  duration-500 shadow-lg shadow-black'>
 
 
       <img src={image.webformatURL} className='w-full' alt="" 
