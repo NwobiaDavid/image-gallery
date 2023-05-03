@@ -1,23 +1,18 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import "./assets/main.css";
 import App from "./App";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
-    {/* <BrowserRouter> */}
-   {/* <Router>
-<Routes>
-</Routes>
-<Route path='/imagepage' element={<ImagePage/>}/> */}
-<div >
-<App />
-</div>
-
-{/* </Router>  */}
-    {/* </BrowserRouter> */}
-  </React.StrictMode>
+    <Router>
+      <div>
+        <Routes>
+          <Route exact path="/" element={<App />} />
+        </Routes>
+      </div>
+    </Router>
+  </React.StrictMode>,
+  document.getElementById("root")
 );

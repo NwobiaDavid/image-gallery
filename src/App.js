@@ -1,15 +1,11 @@
-import React, { useState, useEffect } from "react";
-import Home from "./components/Home"
-
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-// import { useNavigate } from 'react-router-dom';
-// import imagePage from './components/imagePage';
+import React from "react";
+import Home from "./components/Home";
 
 function App() {
   return (
-  <>
-  <Home />
- </>
+    <div>
+      <Home />
+    </div>
   );
 }
 
