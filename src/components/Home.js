@@ -2,14 +2,13 @@ import React, { useState, useEffect } from 'react';
 import ImageCard from './ImageCard';
 import ImageSearch from './ImageSearch';
 import Pagination from './Pagination';
-import Particles from 'particles.js';
+
 
 function Home() {
   const [images, setImages] = useState([]);
   const [isloading, setIsLoading] = useState(true);
   const [term, setTerm] = useState('');
   const [currentPage, setCurrentPage] = useState(0);
-  const [imagesPerPage] = useState(9);
 
   useEffect(() => {
     fetch(

@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import imagePage from './imagePage';
 
 const ImageCard = ({ image }) => {
 const tags =image.tags.split(',');
