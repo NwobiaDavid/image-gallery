@@ -6,7 +6,7 @@ function Pagination({ pageCount, onPageChange }) {
     <ReactPaginate
       pageCount={pageCount}
       onPageChange={onPageChange}
-      containerClassName={"flex justify-center my-6 text-white py-4"}
+      containerClassName={"flex justify-center mt-6 text-white py-4"}
       pageClassName={"mx-2 text-lg hover:text-blue-600"}
       activeClassName={"text-blue-600 font-bold"}
       previousClassName={"mr-2 text-white text-lg hover:text-blue-600"}
